@@ -11,9 +11,7 @@ const Main = () => {
                 <h1 className='text-light'>Stock Prediction Portal</h1>
                 <p className='text-light lead'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ex porro similique facilis. Quisquam est modi eaque blanditiis doloremque suscipit accusantium, voluptatem quibusdam facilis nostrum nesciunt, necessitatibus illo commodi praesentium?</p>
                 <div>
-                    <Button text='Login' className='btn-outline-info' url='/login' />
-                    {" "}
-                    <Button text='Sign Up' className='btn-info' url='/register'/>
+                    <Button text='Explore Now' url="/dashboard" className='btn-info' />
                 </div>
             </div>
         </div>

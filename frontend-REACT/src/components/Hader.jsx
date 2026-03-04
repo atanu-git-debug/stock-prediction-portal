@@ -25,7 +25,11 @@ const Hader = () => {
             <div>
                 {isloggedin ?(
                     
-                    <button className='btn btn-danger' onClick={handelLogout} >Logout</button>
+                    <>
+                        <button className='btn btn-danger' onClick={handelLogout} >Logout</button>
+                        {" "}
+                        <Button text='Dashboard' className='btn-outline-info' url='/dashboard'/>
+                    </>
                 ):(
                     <>
                         <Button text='Login' className='btn-outline-info' url='/login'/>
