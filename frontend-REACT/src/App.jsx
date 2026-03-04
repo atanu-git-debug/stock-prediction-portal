@@ -5,22 +5,23 @@ import Register from './components/Register'
 import Hader from './components/Hader'
 import Footerbar from './components/Footerbar'
 import Login from './components/Login'
-
+import AuthProvider from './AuthProvider'
 
 function App() { 
 
   return (
     <>
-      
-      <BrowserRouter>
-        <Hader/>
-        <Routes>
-          <Route path='/' element={<Main/>} />
-          <Route path='register/' element={<Register/>} />
-          <Route path='login/' element={<Login/>} />
-        </Routes>
-        <Footerbar/>
-      </BrowserRouter>
+      <AuthProvider>
+        <BrowserRouter>
+          <Hader/>
+          <Routes>
+            <Route path='/' element={<Main/>} />
+            <Route path='register/' element={<Register/>} />
+            <Route path='login/' element={<Login/>} />
+          </Routes>
+          <Footerbar/>
+        </BrowserRouter>
+      </AuthProvider>
     </>
   )
 }
