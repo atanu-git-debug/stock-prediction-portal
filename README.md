@@ -130,25 +130,6 @@ stock-prediction-portal
 
 ---
 
-# 📷 Screenshots
-
-## Home Page
-
-(Add screenshot)
-
-## Login / Register
-
-(Add screenshot)
-
-## Prediction Dashboard
-
-(Add screenshot)
-
-## Actual vs Predicted Graph
-
-(Add screenshot)
-
----
 
 # 📈 Model Evaluation
 
